@@ -1,0 +1,22 @@
+{
+    "disabled": false,
+    "bindings": [
+      {
+        "type": "cosmosDBTrigger",
+        "name": "updatedMessages",
+        "direction": "in",
+        "connectionStringSetting": "CosmosConnectionString",
+        "databaseName": "TESTTEST",
+        "collectionName": "TESTContainer",
+        "createLeaseCollectionIfNotExists": "false",
+        "feedPollDelay": 1000
+      },
+      {
+          "type": "signalR",
+          "name": "signalRMessages",
+          "hubName": "messages",
+          "direction": "out"
+      }
+    ]
+}
+  
