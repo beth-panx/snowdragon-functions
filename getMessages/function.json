@@ -16,8 +16,8 @@
           "type": "cosmosDB",
           "name": "messages",
           "ConnectionStringSetting": "CosmosConnectionString",
-          "databaseName": "TESTTEST",
-          "collectionName": "TESTContainer",
+          "databaseName": "QuestionQueue",
+          "collectionName": "DemoContainer",
           "direction": "in"
         }
       ]

@@ -6,9 +6,9 @@
         "name": "updatedMessages",
         "direction": "in",
         "connectionStringSetting": "CosmosConnectionString",
-        "databaseName": "TESTTEST",
-        "collectionName": "TESTContainer",
-        "createLeaseCollectionIfNotExists": "false",
+        "databaseName": "QuestionQueue",
+        "collectionName": "DemoContainer",
+        "createLeaseCollectionIfNotExists": "true",
         "feedPollDelay": 1000
       },
       {
